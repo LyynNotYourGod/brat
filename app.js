@@ -38,7 +38,7 @@ app.get('/brat', async (req, res) => {
   if (!text) return res.status(200).json({
     author: 'LyynCode',
     repository: {
-      github: 'https://github.com/LyynNotYourGod'
+      github: 'https://github.com/LyynNotYourGod/brat'
     },
     hit: await hit,
     message: "Parameter `text` diperlukan",
@@ -103,7 +103,7 @@ app.get('/bratvid', async (req, res) => {
       return res.status(200).json({
         author: 'LyynCode',
         repository: {
-          github: 'https://github.com/LyynNotYourGod'
+          github: 'https://github.com/LyynNotYourGod/brat'
         },
         hit,
         message: "Parameter `text` diperlukan",

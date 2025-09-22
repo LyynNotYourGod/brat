@@ -36,7 +36,7 @@ app.get('/brat', async (req, res) => {
   const text = req.query.text
   const hit = fetchCount()
   if (!text) return res.status(200).json({
-    author: 'LyynCode',
+    author: 'LyynNotYourGod',
     repository: {
       github: 'https://github.com/LyynNotYourGod/brat'
     },
@@ -101,7 +101,7 @@ app.get('/bratvid', async (req, res) => {
 
     if (!text) {
       return res.status(200).json({
-        author: 'LyynCode',
+        author: 'LyynNotYourGod',
         repository: {
           github: 'https://github.com/LyynNotYourGod/brat'
         },
